@@ -1,0 +1,23 @@
+body{
+  background-color: #646cff;
+}
+
+/* p{
+  color: transparent;
+  text-transform: capitalize;
+  font-size: 2.2rem;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(100deg, black, #ffffff 45%, #ffffff 50%, black);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 6s infinite linear;
+}
+@keyframes shimmer{
+  from{
+      background-position: 200% 0;
+  }
+  to{
+      background-position: -200% 0;
+  }
+} */
