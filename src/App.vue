@@ -102,7 +102,7 @@ export default {
     },
     mounted() {
         const saved = localStorage.getItem('thoughtsList')
-        this.thoughts = JSON.parse(saved)
+        this.thoughts = JSON.parse(saved) || []
     }
 }
 </script>
