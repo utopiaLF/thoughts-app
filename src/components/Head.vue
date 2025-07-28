@@ -7,7 +7,7 @@
 
 <script>
 export default {
-    props: ['list'],
+    props: ['navMenu'],
     emits: ['openNavbar'],
     data() {
         return {
