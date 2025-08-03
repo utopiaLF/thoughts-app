@@ -7,7 +7,7 @@
 body{
     background-color: #212121;
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     overflow-x: hidden;
     justify-content: center;
@@ -423,8 +423,8 @@ button.disable{
             width: 100%;
         }
         .thoughtBox {
-            width: 100vw;
-            margin-top: 20%;
+            width: 96vw;
+            margin-top: 25%;
         }
         
         .thoughtBox textarea{
