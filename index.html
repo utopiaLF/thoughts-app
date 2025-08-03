@@ -1,40 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thoughts</title>
-
-    <style>
-        body{
-            background-color: #121212;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow: hidden;
-        }
-        p{
-            color: transparent;
-            text-transform: capitalize;
-            font-size: 2rem;
-            background: linear-gradient(100deg, black, #ffffff 45%, #ffffff 50%, black);
-            background-size: 200% 100%;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            animation: shimmer 4s infinite linear;
-        }
-        @keyframes shimmer{
-            from{
-                background-position: 200% 0;
-            }
-            to{
-                background-position: -200% 0;
-            }
-        }
-        </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <title>Thoughts App</title>
 </head>
 <body>
-    <p>Thoughts app.</p>
+  <div id="app"></div>
+  <script type="module" src="src/main.js"></script>
 </body>
 </html>
