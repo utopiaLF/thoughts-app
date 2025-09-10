@@ -471,7 +471,7 @@ button.disable{
 
 .fade-enter-from, .fade-leave-active{
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(10px);
 }
 .fade-enter-active{
     transition: all 0.3s;
